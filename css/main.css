@@ -1,0 +1,169 @@
+/*************************************************************
+***** BODY, GENERAL, AND RESET *********
+*************************************************************/
+@import url('reset.css');
+
+html,
+body {
+	width: 100%;
+	height: 100%;	
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	background: #eff6f7;
+	color: white;
+	font-family: helvetica;
+}
+
+.listing-price {
+	cursor: pointer;
+}
+
+.list-container {
+	background: #eff6f7;
+	width: 85%;
+	height: 90%;
+	padding-top: 5%;
+	margin: 0 auto 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.requirements-ul {
+	width: 19%;
+	margin: .5%;
+	height: 19%;
+	overflow: auto;
+	cursor: pointer;
+	position: relative;
+}
+
+/*************************************************************
+***** BLOCKS *********
+*************************************************************/
+
+.block-div {
+	width: 39%;
+	height: 39%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.first-block {
+	width: 31.667%;
+	height: 47.5%;
+	margin: .83%;
+}
+
+.first-block-div {
+	width: 60%;
+	height: 40%;
+	background: #eff6f7;
+}
+
+.second-block-div {
+	width: 40%;
+	height: 40%;
+	background: #eff6f7;
+}
+
+.second-block {
+	width: 47.5%;
+	height: 47.5%;
+	margin: 1.25%;
+	background: coral;
+}
+
+.third-block-div {
+	width: 20%;
+	height: 40%;
+	background: #eff6f7;
+}
+
+.third-block {
+	height: 47.5%;
+	width: 95%;
+	margin: 2.5%;
+}
+
+.block-div:nth-child(4) {
+	height: 39.18%;
+}
+
+/*************************************************************
+***** INSIDE REQUIREMENTS-UL *********
+*************************************************************/
+
+
+.requirements-ul > * {
+	opacity: 0;
+}
+
+.requirements-ul:hover > * {
+	opacity: 1;
+}
+
+.listing-description {
+	font-size: 70%;
+	width: 85%;
+	padding-top: 5%;
+	margin: 0 auto;
+	text-align: justify;
+	display: none;
+}
+
+.background-div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(15, 15, 15, .7);
+	opacity: 0;
+}
+
+.listing-title {
+	width: 85%;
+	font-size: 80%;
+	text-align: center;
+	padding-top: 31px;
+	margin: 0 auto;
+}
+
+.big-ul .listing-title {
+	padding-top: 62px;
+	font-size: 100%;
+}
+
+.big-ul .listing-price,
+.big-ul .listing-views {
+	font-size: 90%;
+}
+
+.listing-price {
+	padding-top: 5%;
+}
+
+.listing-price,
+.listing-views {
+	font-size: 70%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,4 @@
-# etsy-api
-
-## Assignment:
+## Assignment from week 6:
 
 https://github.com/tiy-durham-fe-2015/curriculum/blob/master/lectures/week6/1-monday-6.md
 
